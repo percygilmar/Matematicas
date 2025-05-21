@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios Matemáticos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="stylesheet" href="css\estilo.css">
+</head>
+<body>
+    <header class="header-custom text-white py-4">
+        <div class="container">
+            <h1 class="display-4">Ejercicios de Matemáticas</h1>
+            <p class="lead">Práctica y resolución de problemas matemáticos</p>
+        </div>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom sticky-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link" href="#ejercicio6">Ejercicio 6</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#ejercicio7">Ejercicio 7</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#ejercicio8">Ejercicio 8</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#ejercicio9">Ejercicio 9</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#ejercicio10">Ejercicio 10</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="container my-5">
+        <section id="ejercicio6" class="mb-5">
+            <div class="card formula-card">
+                <div class="card-body">
+                    <h3 class="card-title">Ejercicio 6</h3>
+                    <p class="card-text">Define la variable \( z = 4.3 \); luego evalúa:</p>
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <div class="p-3 bg-light rounded">
+                                <p>(a) \( 0.4z^4 + 3.1z^2 - 162.3z - 80.7 \)</p>
+                                <button class="btn btn-primary btn-sm" data-bs-toggle="collapse" data-bs-target="#solucion6a">Ver solución</button>
+                                <div id="solucion6a" class="collapse mt-2">
+                                    <div class="alert alert-success">
+                                        <p><strong>Solución:</strong></p>
+                                        <p>Sustituyendo \( z = 4.3 \):</p>
+                                        <p>\( 0.4(4.3)^4 + 3.1(4.3)^2 - 162.3(4.3) - 80.7 \)</p>
+                                        <p>\( = 0.4(341.8801) + 3.1(18.49) - 697.89 - 80.7 \)</p>
+                                        <p>\( = 136.75204 + 57.319 - 697.89 - 80.7 \)</p>
+                                        <p>\( = -584.51896 \)</p>
+                                        <p><strong>Resultado final:</strong> \(-584.519\)</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="p-3 bg-light rounded">
+                                <p>(b) \( \frac{z^2 - 23}{\sqrt{z^2 + 17.5}} \)</p>
+                                <button class="btn btn-primary btn-sm" data-bs-toggle="collapse" data-bs-target="#solucion6b">Ver solución</button>
+                                <div id="solucion6b" class="collapse mt-2">
+                                    <div class="alert alert-success">
+                                        <p><strong>Solución:</strong></p>
+                                        <p>Sustituyendo \( z = 4.3 \):</p>
+                                        <p>Numerador: \( (4.3)^2 - 23 = 18.49 - 23 = -4.51 \)</p>
+                                        <p>Denominador: \( \sqrt{(4.3)^2 + 17.5} = \sqrt{18.49 + 17.5} = \sqrt{35.99} \approx 5.999 \)</p>
+                                        <p>Resultado: \( \frac{-4.51}{5.999} \approx -0.7518 \)</p>
+                                        <p><strong>Resultado final:</strong> \(-0.7518\)</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="ejercicio7" class="mb-5">
+            <div class="card formula-card">
+                <div class="card-body">
+                    <h3 class="card-title">Ejercicio 7</h3>
+                    <p class="card-text">Define la variable \( t = 3.2 \); luego evalúa:</p>
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <div class="p-3 bg-light rounded">
+                                <p>(a) \( \frac{1}{2} \cdot \frac{2t}{e^t} - 3.81t^3 \)</p>
+                                <button class="btn btn-primary btn-sm" data-bs-toggle="collapse" data-bs-target="#solucion7a">Ver solución</button>
+                                <div id="solucion7a" class="collapse mt-2">
+                                    <div class="alert alert-success">
+                                        <p><strong>Solución:</strong></p>
+                                        <p>Sustituyendo \( t = 3.2 \):</p>
+                                        <p>Simplificamos primero: \( \frac{1}{2} \cdot \frac{2t}{e^t} = \frac{t}{e^t} \)</p>
+                                        <p>Primer término: \( \frac{3.2}{e^{3.2}} \approx \frac{3.2}{24.5325} \approx 0.1304 \)</p>
+                                        <p>Segundo término: \( 3.81(3.2)^3 = 3.81(32.768) \approx 124.846 \)</p>
+                                        <p>Resultado: \( 0.1304 - 124.846 \approx -124.7156 \)</p>
+                                        <p><strong>Resultado final:</strong> \(-124.716\)</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="p-3 bg-light rounded">
+                                <p>(b) \( \frac{6t^2 + 6t - 2}{t^2 - 1} \)</p>
+                                <button class="btn btn-primary btn-sm" data-bs-toggle="collapse" data-bs-target="#solucion7b">Ver solución</button>
+                                <div id="solucion7b" class="collapse mt-2">
+                                    <div class="alert alert-success">
+                                        <p><strong>Solución:</strong></p>
+                                        <p>Sustituyendo \( t = 3.2 \):</p>
+                                        <p>Numerador: \( 6(3.2)^2 + 6(3.2) - 2 = 6(10.24) + 19.2 - 2 = 61.44 + 19.2 - 2 = 78.64 \)</p>
+                                        <p>Denominador: \( (3.2)^2 - 1 = 10.24 - 1 = 9.24 \)</p>
+                                        <p>Resultado: \( \frac{78.64}{9.24} \approx 8.5108 \)</p>
+                                        <p><strong>Resultado final:</strong> \(8.5108\)</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="ejercicio8" class="mb-5">
+            <div class="card formula-card">
+                <div class="card-body">
+                    <h3 class="card-title">Ejercicio 8</h3>
+                    <p class="card-text">Define las variables \( x = 2.6 \) y \( y = 3.8 \); luego evalúa:</p>
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <div class="p-3 bg-light rounded">
+                                <p>(a) \( (x^2 + y^2)^{2/3} + \frac{xy}{y - x} \)</p>
+                                <button class="btn btn-primary btn-sm" data-bs-toggle="collapse" data-bs-target="#solucion8a">Ver solución</button>
+                                <div id="solucion8a" class="collapse mt-2">
+                                    <div class="alert alert-success">
+                                        <p><strong>Solución:</strong></p>
+                                        <p>Sustituyendo \( x = 2.6 \), \( y = 3.8 \):</p>
+                                        <p>Primer término: \( (2.6^2 + 3.8^2)^{2/3} = (6.76 + 14.44)^{2/3} = (21.2)^{2/3} \approx 7.737 \)</p>
+                                        <p>Segundo término: \( \frac{(2.6)(3.8)}{3.8 - 2.6} = \frac{9.88}{1.2} \approx 8.233 \)</p>
+                                        <p>Resultado: \( 7.737 + 8.233 \approx 15.97 \)</p>
+                                        <p><strong>Resultado final:</strong> \(15.97\)</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="p-3 bg-light rounded">
+                                <p>(b) \( \frac{x + 2x^2}{(x - y)^2} + 2x^2 - xy^2 \)</p>
+                                <button class="btn btn-primary btn-sm" data-bs-toggle="collapse" data-bs-target="#solucion8b">Ver solución</button>
+                                <div id="solucion8b" class="collapse mt-2">
+                                    <div class="alert alert-success">
+                                        <p><strong>Solución:</strong></p>
+                                        <p>Sustituyendo \( x = 2.6 \), \( y = 3.8 \):</p>
+                                        <p>Primera fracción: \( \frac{2.6 + 2(2.6)^2}{(2.6 - 3.8)^2} = \frac{2.6 + 13.52}{1.44} = \frac{16.12}{1.44} \approx 11.194 \)</p>
+                                        <p>Segundo término: \( 2(2.6)^2 = 13.52 \)</p>
+                                        <p>Tercer término: \( (2.6)(3.8)^2 = 2.6 \times 14.44 = 37.544 \)</p>
+                                        <p>Resultado: \( 11.194 + 13.52 - 37.544 \approx -12.83 \)</p>
+                                        <p><strong>Resultado final:</strong> \(-12.83\)</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="ejercicio9" class="mb-5">
+            <div class="card formula-card">
+                <div class="card-body">
+                    <h3 class="card-title">Ejercicio 9</h3>
+                    <p class="card-text">Define las variables \( a, b, c, d \) como:<br>
+                    \( c = 4.6 \), \( d = 1.7 \), \( a = cd^2 \), y \( b = \frac{c + a}{c - d} \); luego evalúa:</p>
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <div class="p-3 bg-light rounded">
+                                <p>(a) \( e^{d - b} + \sqrt[3]{c + a - (ca)^d} \)</p>
+                                <button class="btn btn-primary btn-sm" data-bs-toggle="collapse" data-bs-target="#solucion9a">Ver solución</button>
+                                <div id="solucion9a" class="collapse mt-2">
+                                    <div class="alert alert-success">
+                                        <p><strong>Solución:</strong></p>
+                                        <p>Primero calculamos \( a \) y \( b \):</p>
+                                        <p>\( a = cd^2 = 4.6 \times (1.7)^2 = 4.6 \times 2.89 = 13.294 \)</p>
+                                        <p>\( b = \frac{c + a}{c - d} = \frac{4.6 + 13.294}{4.6 - 1.7} = \frac{17.894}{2.9} \approx 6.1703 \)</p>
+                                        <p>Primer término: \( e^{d - b} = e^{1.7 - 6.1703} = e^{-4.4703} \approx 0.0114 \)</p>
+                                        <p>Segundo término: \( \sqrt[3]{c + a - (ca)^d} = \sqrt[3]{4.6 + 13.294 - (4.6 \times 13.294)^{1.7}} \)</p>
+                                        <p>\( = \sqrt[3]{17.894 - (61.1524)^{1.7}} \)</p>
+                                        <p>\( (61.1524)^{1.7} \approx 61.1524 \times 61.1524^{0.7} \approx 61.1524 \times 14.787 \approx 904.3 \)</p>
+                                        <p>\( \sqrt[3]{17.894 - 904.3} = \sqrt[3]{-886.406} \approx -9.605 \)</p>
+                                        <p>Resultado: \( 0.0114 + (-9.605) \approx -9.5936 \)</p>
+                                        <p><strong>Resultado final:</strong> \(-9.594\)</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="p-3 bg-light rounded">
+                                <p>(b) \( \frac{c}{d} + \left(\frac{c}{b}\right)^2 - c^d - \frac{a}{b} \)</p>
+                                <button class="btn btn-primary btn-sm" data-bs-toggle="collapse" data-bs-target="#solucion9b">Ver solución</button>
+                                <div id="solucion9b" class="collapse mt-2">
+                                    <div class="alert alert-success">
+                                        <p><strong>Solución:</strong></p>
+                                        <p>Usando valores previamente calculados:</p>
+                                        <p>\( c = 4.6 \), \( d = 1.7 \), \( a = 13.294 \), \( b \approx 6.1703 \)</p>
+                                        <p>Primer término: \( \frac{c}{d} = \frac{4.6}{1.7} \approx 2.7059 \)</p>
+                                        <p>Segundo término: \( \left(\frac{c}{b}\right)^2 = \left(\frac{4.6}{6.1703}\right)^2 \approx (0.7455)^2 \approx 0.5558 \)</p>
+                                        <p>Tercer término: \( c^d = 4.6^{1.7} \approx 11.787 \)</p>
+                                        <p>Cuarto término: \( \frac{a}{b} = \frac{13.294}{6.1703} \approx 2.1545 \)</p>
+                                        <p>Resultado: \( 2.7059 + 0.5558 - 11.787 - 2.1545 \approx -10.6798 \)</p>
+                                        <p><strong>Resultado final:</strong> \(-10.680\)</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="ejercicio10" class="mb-5">
+            <div class="card formula-card">
+                <div class="card-body">
+                    <h3 class="card-title">Ejercicio 10</h3>
+                    <p class="card-text">Se dan dos identidades trigonométricas:</p>
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <div class="p-3 bg-light rounded">
+                                <p>(a) \( \cos^2 x - \sin^2 x = 1 - 2\sin^2 x \)</p>
+                                <button class="btn btn-primary btn-sm" data-bs-toggle="collapse" data-bs-target="#solucion10a">Ver solución</button>
+                                <div id="solucion10a" class="collapse mt-2">
+                                    <div class="alert alert-success">
+                                        <p><strong>Demostración:</strong></p>
+                                        <p>Usando la identidad pitagórica \( \cos^2 x = 1 - \sin^2 x \):</p>
+                                        <p>Lado izquierdo: \( \cos^2 x - \sin^2 x = (1 - \sin^2 x) - \sin^2 x = 1 - 2\sin^2 x \)</p>
+                                        <p>Lado derecho: \( 1 - 2\sin^2 x \)</p>
+                                        <p>Ambos lados son iguales, por lo que la identidad es válida.</p>
+                                        <p><strong>Verificación con \( x = \pi/10 \) (18°):</strong></p>
+                                        <p>Lado izquierdo: \( \cos^2(18°) - \sin^2(18°) \approx 0.9045 - 0.0955 = 0.8090 \)</p>
+                                        <p>Lado derecho: \( 1 - 2\sin^2(18°) \approx 1 - 2(0.0955) = 0.8090 \)</p>
+                                        <p>Se verifica la igualdad.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="p-3 bg-light rounded">
+                                <p>(b) \( \frac{\tan x}{\sin x - 2 \tan x} = \frac{1}{\cos x - 2} \)</p>
+                                <button class="btn btn-primary btn-sm" data-bs-toggle="collapse" data-bs-target="#solucion10b">Ver solución</button>
+                                <div id="solucion10b" class="collapse mt-2">
+                                    <div class="alert alert-success">
+                                        <p><strong>Demostración:</strong></p>
+                                        <p>Sustituyendo \( \tan x = \frac{\sin x}{\cos x} \):</p>
+                                        <p>Lado izquierdo: \( \frac{\frac{\sin x}{\cos x}}{\sin x - 2\frac{\sin x}{\cos x}} = \frac{\sin x}{\cos x \sin x - 2 \sin x} \)</p>
+                                        <p>Factorizando denominador: \( \frac{\sin x}{\sin x (\cos x - 2)} = \frac{1}{\cos x - 2} \)</p>
+                                        <p>Que es igual al lado derecho.</p>
+                                        <p><strong>Verificación con \( x = \pi/10 \) (18°):</strong></p>
+                                        <p>Lado izquierdo: \( \frac{\tan(18°)}{\sin(18°) - 2\tan(18°)} \approx \frac{0.3249}{0.3090 - 0.6498} \approx \frac{0.3249}{-0.3408} \approx -0.9533 \)</p>
+                                        <p>Lado derecho: \( \frac{1}{\cos(18°) - 2} \approx \frac{1}{0.9511 - 2} \approx \frac{1}{-1.0489} \approx -0.9533 \)</p>
+                                        <p>Se verifica la igualdad.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer-custom text-white py-3 fixed-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="mb-0">&copy; 2025 Página de Ejercicios Matemáticos</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
